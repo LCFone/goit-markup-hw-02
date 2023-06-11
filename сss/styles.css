@@ -1,0 +1,174 @@
+/* 1 розміри, 2 колір, 3 текст */
+
+/* ~~~~~~~~~~~~~~~~body~~~~~~~~~~~~~~~~ */
+:root {
+    --dominant-font: 'Roboto', sans-serif; 
+    --domiant-text-color: #2E2F42; 
+    --second-text-color: #434455;
+    --filter-botton-color: #4D5AE5;
+    
+
+}
+body {
+    background-color: #E5E5E5;
+    color: var(--dominant-text-color);
+    font-family: var(--dominant-font);
+}
+.accent {
+        color: #4D5AE5;
+        font-family: var(--dominant-font);
+    }
+        /* ~~~~~~~~~~~~~~~~//body~~~~~~~~~~~~~~~~ */
+    /* ~~~~~~~~~~~~~~~~logo~~~~~~~~~~~~~~~~ */
+    .logo {color: var(--second-text-color); 
+        font-family: 'Raleway', sans-serif;
+        
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    letter-spacing: 0.03em;}
+    
+    .logo:active, .logo:focus, .logo:hover {color: #4D5AE5;}
+        /* ~~~~~~~~~~~~~~~~//logo~~~~~~~~~~~~~~~~ */
+        /* ~~~~~~~~~~~~~~~~site nav~~~~~~~~~~~~~~~~ */
+    .site-nav .link {color: #2E2F42;
+    font-family: var(--dominant-font);
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-nav .link:active {
+    color: #404BBF;
+}
+/* ~~~~~~~~~~~~~~~~//site nav~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~address~~~~~~~~~~~~~~~~*/
+.address .link {
+    color: #2E2F42;
+    font-family: var(--dominant-font);
+        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.address .link:hover,
+.address .link:focus,
+.address .link:active {color: #404BBF;}
+/* ~~~~~~~~~~~~~~~~//address~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~hero~~~~~~~~~~~~~~~~ */
+.hero-title {
+    color: #ffffff;
+    
+}
+.hero-title span {color: #D9D9D9;}
+.text {color: #434455;}
+.button {cursor: pointer;
+}
+.button {color:#D9D9D9; background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;}
+.button:hover {background-color:#404BBF;}
+.button:focus {background-color: #404BBF;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;}
+/* qualities */
+.qualities-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+        /* ~~~~~~~~~~~~~~~~//hero~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~examples~~~~~~~~~~~~~~~~ */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+        /* ~~~~~~~~~~~~~~~~//examples~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~team~~~~~~~~~~~~~~~~ */
+.name-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;}
+    .team-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;}
+/* ~~~~~~~~~~~~~~~~//team~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~ */
+.footer-text {color: #F4F4FD; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ~~~~~~~~~~~~~~~~//footer~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~components~~~~~~~~~~~~~~~~ */
+.link {text-decoration: none;}
+.list {list-style: none;}
+/* ~~~~~~~~~~~~~~~~//components~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~portfolio buttons~~~~~~~~~~~~~~~~ */
+.filter-button-blue {cursor: pointer;
+}
+.filter-button-blue {
+    color: #ffffff;
+        background-color: #404BBF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em
+}
+.filter-button-blue:hover {
+    background-color: #8E8F99;
+}
+.filter-button-blue:focus {
+    background-color: #8E8F99;
+}
+.filter-button {cursor: pointer;}
+.filter-button:hover{color: #ffffff;
+        background-color: #404BBF;
+    }
+.filter-button:focus{color: #ffffff;
+        background-color: #404BBF;
+    }
+.filter-button {color: var(--filter-botton-color);
+background-color: #F4F4FD;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;}
+/* ~~~~~~~~~~~~~~~~//portfolio buttons~~~~~~~~~~~~~~~~ */
+#my-heading {
+    display: none;
+}
+.name-title.left-align {
+    text-align: left;
+}
