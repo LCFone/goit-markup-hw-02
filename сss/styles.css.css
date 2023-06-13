@@ -2,15 +2,16 @@
 
 /* ~~~~~~~~~~~~~~~~body~~~~~~~~~~~~~~~~ */
 :root {
-    --dominant-font: 'roboto', sans-serif; 
-    --domiant-text-color: #434455; 
-    --second-text-color: #4d5ae5;
+    --dominant-font: 'Roboto', sans-serif; 
+    --domiant-text-color: #2E2F42; 
+    --second-text-color: #434455;
     --filter-botton-color: #4D5AE5;
     
+
 }
 body {
-    background-color: #FFFFFF;
-    color: var(--domiant-text-color);
+    background-color: #E5E5E5;
+    color: var(--dominant-text-color);
     font-family: var(--dominant-font);
 }
 .accent {
@@ -19,20 +20,15 @@ body {
     }
         /* ~~~~~~~~~~~~~~~~//body~~~~~~~~~~~~~~~~ */
     /* ~~~~~~~~~~~~~~~~logo~~~~~~~~~~~~~~~~ */
-    .logo
-    {color: var(--second-text-color); 
-        font-family: 'raleway', sans-serif;
-        text-transform: uppercase;
+    .logo {color: var(--second-text-color); 
+        font-family: 'Raleway', sans-serif;
+        
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
     letter-spacing: 0.03em;}
-        .logo span {
-            color: #2E2F42;
-        }
     
-    .logo:active, .logo:focus
-    
+    .logo:active, .logo:focus, .logo:hover {color: #4D5AE5;}
         /* ~~~~~~~~~~~~~~~~//logo~~~~~~~~~~~~~~~~ */
         /* ~~~~~~~~~~~~~~~~site nav~~~~~~~~~~~~~~~~ */
     .site-nav .link {color: #2E2F42;
@@ -52,7 +48,7 @@ body {
 .address .link {
     color: #2E2F42;
     font-family: var(--dominant-font);
-        font-style: normal;
+        
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -67,7 +63,7 @@ body {
     color: #ffffff;
     
 }
-.hero-title {color: #9D9D9D;}
+.hero-title span {color: #D9D9D9;}
 .text {color: #434455;}
 .button {cursor: pointer;
 }
