@@ -6,7 +6,7 @@
 --primary-color: #2E2F42;
 --secondary-color: #434455;
 }
-.selector {background-color: #fff;}
+{background-color: #fff;}
 .link, .logo {
     text-decoration: none;
 }
@@ -15,8 +15,11 @@
     list-style: none;
 }
 /* `````BODY````` */
-body {font: var(--primary-font);
-color: var(--primary-color);}
+body {font-family:'Roboto',
+    sans-serif;
+color: #2E2F42;;
+ background-color: #fff;
+    }
 /* class="body" */
 
 /* `````COMPONENTS````` */
