@@ -106,12 +106,14 @@ class="tel" */
 
 /* `````MAIN````` */
 /* `````HERO````` */
+section.hero {background-color: #2E2F42;}
 .title-hero {font-family: 'Roboto', sans-serif;
     font-size: 56px;
     line-height: 1.07px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    background-color: #2E2F42;
 }
 
 .business-text {
