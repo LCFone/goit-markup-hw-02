@@ -10,6 +10,7 @@
 .link {
     text-decoration: none;
 }
+.list {list-style: none;}
 
 /* `````BODY````` */
 body {font-family:'Roboto',
@@ -17,7 +18,7 @@ body {font-family:'Roboto',
 color: #434455;
  background-color: #fff;
     }
-/* class="body" */
+
 
 /* `````COMPONENTS````` */
 a {
@@ -82,27 +83,14 @@ font-weight: 800;
     color: #4D5AE5;
 }
 .logo-header {color: var(--primary-color);}
-/* class="navigation"
-class="header"
-class="nav"
-class="logo"
-class="logo-header"
-class="link"
-class="menu" 
-class="menu-item"
-class="link"*/
+
 
 /* `````ADDRESS````` */
 .menu-contact {font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-/* class="address"
-class="menu-contact"
-class="link"
-class="menu-item"
-class="email"
-class="tel" */
+
 
 /* `````MAIN````` */
 /* `````HERO````` */
@@ -125,34 +113,16 @@ section.hero {background-color: #2E2F42;}
     letter-spacing: 0.04em;
     color: #D9D9D9;}
 
-/* class="main"
-class"hero"
-class="title-hero"
-class="business-text"
-class="button-hero" */
+
 
 /* `````GOALS`````*/
-/* class="section"
-class="menu"
-class="menu-item"
-class="title-descriptions" 
-class="text" */
+
 
 /* `````WHAT WE DO (wwd)````` */
-/* class="section" 
-class="title"
-class="menu"
-class="list"
-class="menu-item"
-class="image"*/
+
 
 /* `````TEAM````` */
-/* class="section"
-class="menu"
-class="menu-item"
-class="image"
-class="title-descriptions"
-class="text"*/
+
 
 /* `````BUTTONS PORTFOLIO````` */
 .filter-button {font-weight: 500;
@@ -169,20 +139,11 @@ background-color: #404BBF;}
  class="filter-button*/
 
 /* `````PORTFOLIO`````` */
-/* 
-class="menu-item"
-class="menu"
-class="image"
-class="title"
-class="text"*/
+
 
 /* `````FOOTER````` */
 footer {background-color: #2E2F42;}
 .footer-text {color:#F4F4FD;}
 .logo-footer {color: #F4F4FD;}
-/* `````LOGO FOOTER````` */
-/*class="logo-footer"
-class="footer"
-class="logo"
-class="link"
-class="text" */
+
+
