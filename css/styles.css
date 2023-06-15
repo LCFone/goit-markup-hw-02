@@ -6,7 +6,7 @@
 --primary-color: #2E2F42;
 --secondary-color: #434455;
 }
-{background-color: #fff;}
+
 .link {
     text-decoration: none;
 }
@@ -54,6 +54,7 @@ button:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-color)
 }
 
 .text {
@@ -68,7 +69,13 @@ button:focus {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--primary-color);
 }
+.team {background-color: #F4F4FD}
+.menu {background-color: #FFFFFF}
+p.text {font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;}
 
 /* `````HEADER````` */
 /* `````NAVIGATION````` */
@@ -87,9 +94,11 @@ font-weight: 800;
 
 /* `````ADDRESS````` */
 .menu-contact {font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+color: #434455;}
 
 
 /* `````MAIN````` */
@@ -97,7 +106,7 @@ font-weight: 800;
 section.hero {background-color: #2E2F42;}
 .title-hero {font-family: 'Roboto', sans-serif;
     font-size: 56px;
-    line-height: 1.07px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -111,7 +120,7 @@ section.hero {background-color: #2E2F42;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #D9D9D9;}
+    color: #ffffff}
 
 
 
@@ -132,7 +141,7 @@ section.hero {background-color: #2E2F42;}
     letter-spacing: 0.04em;
     color: #4D5AE5;
 background: #F4F4FD;}
-.filter-button:hover {color: #FFFFFF;
+.filter-button:hover, .filter-button:focus {color: #FFFFFF;
 background-color: #404BBF;}
 /* class="title"
  class="filter"
@@ -143,7 +152,7 @@ background-color: #404BBF;}
 
 /* `````FOOTER````` */
 footer {background-color: #2E2F42;}
-.footer-text {color:#F4F4FD;}
+p.footer-text {color:#F4F4FD;}
 .logo-footer {color: #F4F4FD;}
 
 
