@@ -68,9 +68,10 @@ button:focus {
     text-transform: capitalize;
     color: var(--primary-color);
 }
-.team {background-color: #FFFFFF;}
+.team {background-color: #F4F4FD;}
 .menu {
 color: #434455;}
+.menu-item{background-color: #fff;}
 p.text {font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;}
