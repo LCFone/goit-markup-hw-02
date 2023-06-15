@@ -72,7 +72,8 @@ button:focus {
     color: var(--primary-color);
 }
 .team {background-color: #F4F4FD}
-.menu {background-color: #FFFFFF}
+.menu-item {background-color: #FFFFFF
+color: #434455;}
 p.text {font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;}
@@ -98,13 +99,16 @@ font-weight: 800;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style: none;
 color: #434455;}
-
+.contact {font-style: normal;
+color: #434455;}
+.address {font-style: normal;}
 
 /* `````MAIN````` */
 /* `````HERO````` */
 section.hero {background-color: #2E2F42;}
-.title-hero {font-family: 'Roboto', sans-serif;
+.title-hero {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -134,7 +138,8 @@ section.hero {background-color: #2E2F42;}
 
 
 /* `````BUTTONS PORTFOLIO````` */
-.filter-button {font-weight: 500;
+.filter-button {font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
@@ -152,7 +157,12 @@ background-color: #404BBF;}
 
 /* `````FOOTER````` */
 footer {background-color: #2E2F42;}
-p.footer-text {color:#F4F4FD;}
+p.footer-text {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+}
 .logo-footer {color: #F4F4FD;}
 
 
