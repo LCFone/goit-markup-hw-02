@@ -143,6 +143,7 @@ section.hero {background-color: #2E2F42;}
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
+    text-decoration: none;
     color: #4D5AE5;
 background: #F4F4FD;}
 .filter-button:hover, .filter-button:focus {color: #FFFFFF;
