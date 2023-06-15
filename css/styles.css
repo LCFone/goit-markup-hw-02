@@ -71,7 +71,7 @@ button:focus {
     text-transform: capitalize;
     color: var(--primary-color);
 }
-.team {background-color: #F4F4FD}
+.team {background-color: #FFFFFF}
 .menu-item {background-color: #FFFFFF
 color: #434455;}
 p.text {font-size: 16px;
@@ -159,7 +159,7 @@ background-color: #404BBF;}
 footer {background-color: #2E2F42;}
 p.footer-text {font-weight: 400;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
 }
