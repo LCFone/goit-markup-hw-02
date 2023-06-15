@@ -71,8 +71,8 @@ button:focus {
     text-transform: capitalize;
     color: var(--primary-color);
 }
-.team {background-color: #FFFFFF}
-.menu-item {background-color: #FFFFFF
+.team {background-color: #F4F4FD;}
+.menu {background-color: #FFFFFF;
 color: #434455;}
 p.text {font-size: 16px;
 line-height: 1.5;
@@ -120,7 +120,8 @@ section.hero {background-color: #2E2F42;}
 .business-text {
     color: #D9D9D9;
 }
-.button-hero {font-weight: 500;
+.button-hero {font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
